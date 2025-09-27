@@ -1,7 +1,7 @@
 import cv2
 
 def task2():
-    filename = 'javaw_KtliLWylWH.png'
+    filename = r'input/javaw_KtliLWylWH.png'
     image_color = cv2.imread(filename=filename,flags=cv2.IMREAD_COLOR)
     image_grayscale = cv2.imread(filename=filename,flags=cv2.IMREAD_GRAYSCALE)
     image_reduced_color = cv2.imread(filename=filename,flags=cv2.IMREAD_REDUCED_COLOR_2)

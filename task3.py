@@ -5,7 +5,7 @@ def task3():
     cap_properties = [[],
                       [(cv2.CAP_PROP_MONOCHROME,1)],
                       [(cv2.CAP_PROP_FRAME_WIDTH,400),(cv2.CAP_PROP_FRAME_HEIGHT,800)]]
-    filename = r'video1.mp4'
+    filename = r'input/video1.mp4'
     for prop in cap_properties:
         
         if len(prop)==0:

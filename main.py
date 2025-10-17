@@ -3,6 +3,7 @@ import task2
 import task3
 import task4
 import task5
+import task6
 if __name__ == "__main__":
-    task5.task5()
+    task6.task6()
 

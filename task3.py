@@ -31,5 +31,6 @@ def task3():
                 break
         video_end = time.time()
         print(video_end-video_start)
+        cap.release()
         cv2.destroyAllWindows()
     

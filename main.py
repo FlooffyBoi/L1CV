@@ -5,6 +5,7 @@ import task4
 import task5
 import task6
 import task7
+import task8
 if __name__ == "__main__":
-    task7.task7()
+    task8.task8()
 

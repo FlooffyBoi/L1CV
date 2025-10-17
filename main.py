@@ -8,5 +8,5 @@ import task7
 import task8
 import task9
 if __name__ == "__main__":
-    task9.task9()
+    task2.task2()
 
